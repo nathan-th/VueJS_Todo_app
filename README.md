@@ -1,10 +1,10 @@
-# todo_app
+# Todo_app
 
 > A Vue.js project
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
