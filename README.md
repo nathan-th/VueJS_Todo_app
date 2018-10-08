@@ -1,6 +1,14 @@
 # Todo_app
 
-> A Vue.js project
+> This is a Vue.js Todo web app project based on Scotch article.
+
+#### Scotch Website Link
+
+[Build a To-Do App with Vue.js 2](https://scotch.io/tutorials/build-a-to-do-app-with-vue-js-2)
+
+```
+Link:https://scotch.io/tutorials/build-a-to-do-app-with-vue-js-2
+```
 
 ## Build Setup
 

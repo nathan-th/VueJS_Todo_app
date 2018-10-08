@@ -1,14 +1,25 @@
 <template>
-
+<!-- Javascript expressions in Vue are enclosed in double curly brackets --> 
     <div>
-        <ul>
+    
+    <p> Completed Tasks: {{todos.filter(todo => {return todo.done === true }).length}} </p>
+    <p> Pending Tasks: {{todos.filter(todo => {return todo.done === true}).length}} </p>
 
-            <li> Todo A </li>
-            <li> Todo B </li>
-            <li> Todo C </li>
-
-        </ul>
-
+    <div class="ui centered card" v-for="(todo) in todos" :key="todo">
+        <div class="content"> 
+            <div class="ui sub header">
+                {{ todo.title }} 
+            </div>
+            <div class="meta"> 
+            </div> 
+            {{ todo.project}}
+        </div>
+    <div class="content"> 
+    <span class="right floated edit icon"> 
+        <i class="edit icon"></i>
+        </span> 
+            </div> 
+    </div>
     </div>
 
 </template>
